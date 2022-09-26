@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    /* box-shadow: 0 0 0.95em rgba(0, 0, 0, 0.5); */
+    width: 800px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.cardhero {
+    flex: 0 0 50%;
+    position: relative;
+}
+
+.card-img {
+    display: block;
+    width: 100%;
+}
+
+.cardcontent {
+    flex: 1;
+    padding: 35px 35px 25px 35px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(4, 4, 4);
+}
+
+cardinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.main {
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+}
+.itworks {
+    background-color: #fff;
+    width: 350px;
+}
+
+.howitworks {
+    font-size: 20px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 13px;
+}
+
+/* BUTTON */
+
+/* Button */
+
+
+.btn-get {
+    background: #0950f8;
+    color: whitesmoke;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 2px solid #0950f8;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 6px;
+}
+
+.btn-get:hover {
+    border: 2px solid #0950f8;
+    background: #fff;
+    color: #0950f8;
+    
+}
+
+.btn-chat {
+    background: #ffff;
+    color: blue;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 2px solid #0950f8;
+}
+
+.btn-chat:hover {
+    border: 2px solid #0950f8;
+    background: #0950f8;
+    color: #fff;
+}
+
+.free {
+    font-size: 8px;
+    margin-top: 15px;
+}
+
+span {
+    font-size: 20px;
+    color: #0950f8;
+}
+
+hr {
+    margin-left: 180px;
+    margin-right: 190px;
+    margin-top: 5px;
+}
